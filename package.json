@@ -1,0 +1,24 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "main": "hello-world.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon hello-world.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koneassata/Node.js.git"
+  },
+  "author": "kone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koneassata/Node.js/issues"
+  },
+  "homepage": "https://github.com/koneassata/Node.js#readme",
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.9"
+
+  }
+}
