@@ -1,16 +1,9 @@
-const generatePassword = require("generate-password");
+// password-generator.js
+const generatePassword = require('generate-password');
 
-function generatePassword() {
-    const password = generatePassword.generate({
-        length: 8,
-        numbers: true,
-        symbols: true,
-        uppercase: true,
-        lowercase: true,
-        strict: true
-    });
+const password = generatePassword.generate({
+  length: 12,
+  numbers: true
+});
 
-    console.log("Mot de passe généré :", password);
-}
-
-generatePassword();
+console.log('Generated Password:', password);
